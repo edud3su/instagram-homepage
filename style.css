@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;    
+}
+
+.graybox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    padding: 10px 0 0 0;
+
+}
+
+.loguin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3em 0 ;
+    border: 1px solid lightgray;
+    background-color: white;
+
+}
+
+
+.iglogo img{
+    height: 50px;
+}
+
+.perfilfoto img{
+    border-radius: 50%;
+    height: 100px;
+    padding: 10px;
+}
+
+
+
+.phone{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.phone img {
+    height: 700px;
+
+}
+
+.entrar{
+    background-color: #0095F6;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 6px;
+    
+
+}
+
+.remover{
+    padding-top: 15px;
+    color: #0095F6;
+}
+
+.altins{
+    color: darkgray ;
+    font-size: 14px;
+}
+
+.apps{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 0;
+    margin-bottom: 30px;
+    
+      
+}
+
+.apps p{
+    margin-top: -35px;
+    padding: 0;
+}
+
+
+
+.download img{
+    margin-top: -10px;
+    max-height: 40px;
+    padding: 20px 1.3em 0px;
+
+}
