@@ -120,3 +120,36 @@ body {
     padding: 20px 1.3em 0px;
 
 }
+
+@media (max-width: 1224px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .graybox {
+        width: 100%;
+    }
+    
+    .loguin {
+        border: 1px solid transparent;
+    }
+    .download img{
+        display: flex;
+
+    }
+}
+
